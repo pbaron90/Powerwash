@@ -8,7 +8,6 @@
 
 .faq__main-container {
   padding: 2rem 4rem 8rem 4rem;
-
 }
 
 .faq__main-intro {
@@ -39,4 +38,46 @@
     font-size: xx-large;
     color: #fff;
   }
+}
+
+@media (max-width:480px) {
+  .faq__hero-container {
+    background-size: 200%;
+    background-attachment: fixed;
+    background-position: 50% -15%;
+  }
+
+  .faq__main-container {
+    padding: 1rem;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  .question-filler {
+    flex-basis: 100%;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 10px;
+    padding: 0 1rem;
+  
+    h4 {
+      border-radius: 10px;
+      background: none;
+      padding: 0;
+      margin: 1rem 0;
+      text-align: center;
+    }
+  
+    span {
+      font-size: xx-large;
+      color: skyblue;
+    }
+  }
+
+  .question-filler:nth-of-type(odd) {
+    background: #b7b7b7;
+  }
+  
 }
