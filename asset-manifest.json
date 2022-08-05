@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/powerwash/static/css/main.441c1b72.css",
-    "main.js": "/powerwash/static/js/main.4a7f79d5.js",
-    "static/media/wash4.jpg": "/powerwash/static/media/wash4.d2839ebc107d0fab5bd9.jpg",
-    "static/media/wash5.jpg": "/powerwash/static/media/wash5.427fea0a3ef16650fa9f.jpg",
-    "static/media/wash3.webp": "/powerwash/static/media/wash3.cd19d84a37b356afcba7.webp",
-    "static/media/wash2.jpg": "/powerwash/static/media/wash2.68b572e6b980651c237d.jpg",
-    "static/media/contact.jpg": "/powerwash/static/media/contact.3150984cd60ad132f5c2.jpg",
-    "static/media/faq.jpg": "/powerwash/static/media/faq.5d713c1150dc8a3cef04.jpg",
-    "static/media/commer.jpg": "/powerwash/static/media/commer.9400a64b2860430feca4.jpg",
-    "static/media/resi.jpeg": "/powerwash/static/media/resi.8c03fd6b3bb38473d359.jpeg",
-    "index.html": "/powerwash/index.html",
-    "main.441c1b72.css.map": "/powerwash/static/css/main.441c1b72.css.map",
-    "main.4a7f79d5.js.map": "/powerwash/static/js/main.4a7f79d5.js.map"
+    "main.css": "/Powerwash/static/css/main.62810fc1.css",
+    "main.js": "/Powerwash/static/js/main.4a7f79d5.js",
+    "static/media/wash4.jpg": "/Powerwash/static/media/wash4.d2839ebc107d0fab5bd9.jpg",
+    "static/media/wash5.jpg": "/Powerwash/static/media/wash5.427fea0a3ef16650fa9f.jpg",
+    "static/media/wash3.webp": "/Powerwash/static/media/wash3.cd19d84a37b356afcba7.webp",
+    "static/media/wash2.jpg": "/Powerwash/static/media/wash2.68b572e6b980651c237d.jpg",
+    "static/media/contact.jpg": "/Powerwash/static/media/contact.3150984cd60ad132f5c2.jpg",
+    "static/media/faq.jpg": "/Powerwash/static/media/faq.5d713c1150dc8a3cef04.jpg",
+    "static/media/commer.jpg": "/Powerwash/static/media/commer.9400a64b2860430feca4.jpg",
+    "static/media/resi.jpeg": "/Powerwash/static/media/resi.8c03fd6b3bb38473d359.jpeg",
+    "index.html": "/Powerwash/index.html",
+    "main.62810fc1.css.map": "/Powerwash/static/css/main.62810fc1.css.map",
+    "main.4a7f79d5.js.map": "/Powerwash/static/js/main.4a7f79d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.441c1b72.css",
+    "static/css/main.62810fc1.css",
     "static/js/main.4a7f79d5.js"
   ]
 }
