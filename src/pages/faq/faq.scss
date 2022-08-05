@@ -1,0 +1,42 @@
+.faq__hero-container {
+  background-image: url(../../assets/faq.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0% 150%;
+}
+
+.faq__main-container {
+  padding: 2rem 4rem 8rem 4rem;
+
+}
+
+.faq__main-intro {
+  text-align: left;
+
+}
+
+.faq__main-questions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+}
+
+.question-filler {
+  flex-basis: 40%;
+  margin: 1rem 0;
+  border: 2px solid #000;
+  padding: 0 1rem;
+
+  h4 {
+    border-radius: 20px;
+    background: skyblue;
+    padding-left: 10px;
+  }
+
+  span {
+    font-size: xx-large;
+    color: #fff;
+  }
+}

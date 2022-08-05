@@ -1,0 +1,60 @@
+.services__hero-container {
+  background-image: url(../../assets/wash3.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 120%;
+
+}
+
+.services__main-container {
+  padding: 4rem ;
+}
+
+.services__main-split {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.services__main-residential {
+  flex-basis: 48%;
+}
+
+.services__main_residential-image {
+  background-image: url(../../assets/resi.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+}
+
+.services__main_commercial-image {
+  background-image: url(../../assets/commer.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+
+.services__main-commercial {
+  flex-basis: 48%;
+}
+
+.services__main-bottom {
+  margin: 4rem 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.services__main_bottom-jobs {
+  margin-top: 4rem;
+  flex-basis: 30%;
+
+  svg {
+    font-size: 50px;
+  }
+}

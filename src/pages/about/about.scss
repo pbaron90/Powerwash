@@ -1,0 +1,50 @@
+.about__hero-container {
+  background-image: url(../../assets/wash2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 100%;
+}
+
+.about__main-container {
+  padding: 1rem 4rem;
+}
+
+.about__main-intro {
+  margin: 1rem 0 6rem 0 ;
+}
+
+.about__main-team {
+  margin: 4rem 0;
+  text-align: center;
+
+  h1 {
+    margin: 3rem;
+  }
+}
+
+.about__main-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about__main-members-fill {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 15%;
+  margin: .5rem 1rem ;
+  align-items: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background: #000000;
+}
+
+@media (max-width: 480px) {
+
+  
+}
