@@ -43,7 +43,6 @@
 @media (max-width:480px) {
   .faq__hero-container {
     background-size: 200%;
-    background-attachment: fixed;
     background-position: 50% -15%;
   }
 
@@ -79,5 +78,4 @@
   .question-filler:nth-of-type(odd) {
     background: #b7b7b7;
   }
-  
 }
