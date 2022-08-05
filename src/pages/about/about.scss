@@ -32,8 +32,8 @@
 .about__main-members-fill {
   display: flex;
   flex-direction: column;
-  flex-basis: 15%;
-  margin: .5rem 1rem ;
+  flex-basis: 30%;
+  padding: .5rem 1rem ;
   align-items: center;
 }
 
@@ -45,6 +45,33 @@
 }
 
 @media (max-width: 480px) {
-
+  .about__hero-container {
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: 40% 0;
+  }
   
+  .about__main-container {
+    padding: 1rem 1rem;
+  }
+  
+  .about__main-intro {
+    margin: 1rem 0 0 0 ;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  .about__main-members-fill {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: center;
+  }
+
+  .about__main-members-fill:nth-of-type(odd) {
+    background: #b7b7b7;
+    border-radius: 10px;
+  }
 }

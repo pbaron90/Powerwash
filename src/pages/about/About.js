@@ -12,7 +12,7 @@ const Team = () => (
 )
 const About = () => {
   return (
-    <div className='about-container'>
+    <div className='about'>
       <div className="about__hero-container">
         <Hero />
       </div>
@@ -27,6 +27,7 @@ const About = () => {
         <div className="about__main-team">
           <h1>Meet The Team</h1>
           <div className="about__main-members">
+            <Team />
             <Team />
             <Team />
             <Team />

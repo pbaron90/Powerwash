@@ -4,7 +4,6 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 0 120%;
-
 }
 
 .services__main-container {
@@ -27,7 +26,6 @@
   background-size: cover;
   background-position: center;
   height: 400px;
-
 }
 
 .services__main_commercial-image {
@@ -57,4 +55,55 @@
   svg {
     font-size: 50px;
   }
+}
+
+@media (max-width: 480px) {
+  .services__hero-container {
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 100% -10%;
+  }
+
+  .services__main-container {
+    padding: 1rem ;
+    
+    h1 {
+      margin: 1rem 0 0 0;
+    }
+  }
+
+  .services__main-residential,
+  .services__main-commercial
+  {
+    flex-basis: 100%;
+  }
+
+  .services__main_residential-image,
+  .services__main_commercial-image {
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .services__main-bottom {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+
+  .services__main_bottom-jobs {
+    padding: 0.5rem 0.5rem;
+    flex-basis: 45%;
+  }
+
+  .services__main_bottom-jobs:nth-of-type(1),
+  .services__main_bottom-jobs:nth-of-type(4),
+  .services__main_bottom-jobs:nth-of-type(5) {
+    background: #b7b7b7;
+    border-radius: 10px;
+    
+  }
+
 }
